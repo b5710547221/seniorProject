@@ -1,0 +1,33 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://unpkg.com/tachyons@4.9.0/css/tachyons.min.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Page1</title>
+    </head>
+    <body>
+     <div class="tc  center">
+        <h1 class=" tc ph6 pv5">Job  seeker  application</h1> <br><br><br>
+        <form class=" tc w-50 ph2  ba pa2 justify-center center">
+            <div class="tc ml0 ">
+              
+                <div class=""> <h3 class ="dib">User name</h3> &nbsp;&nbsp;&nbsp;<input type="text" class=" dib"/> <br></div>
+                <div class=""> <h3 class="dib">Password</h3>  &nbsp;&nbsp;&nbsp;<input type="password " class=" dib"/> <br> </div>
+                <br>
+                <input ion-button (click) ="login()"class ="dib center" type="submit" value="Log in"/>&nbsp;&nbsp;&nbsp;
+                <input ion-button (click) ="register()" class ="" type="submit" value="Register"/>
+            </div>
+        </form>
+        <div class ="">
+        
+            <h2 class=" tc pv3 ph6">Sign in with exist account</h2>
+        </div>
+        <div class="tc" >
+            <img ion-button (click) ='facebookLogin();' class ="pa0" src="../../assets/imgs/fb_icon.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;
+            <img ion-button (click) ='facebookLogin();' class ="pa0" src="../../assets/imgs/linkedin_icon.png" >&nbsp;&nbsp;&nbsp;&nbsp;
+            <img ion-button (click) ='facebookLogin();' class ="pa0" src="../../assets/imgs/google_icon.jpeg" alt="">
+           
+        </div>
+    </div>
+    </body>
+</html> 
